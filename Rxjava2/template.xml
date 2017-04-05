@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="Rxjava2 Support"
+    description="Rxjava2 Support Script."
+    >
+
+    <category value="Dependencies" />
+    <execute file="recipe.xml.ftl" />
+</template>

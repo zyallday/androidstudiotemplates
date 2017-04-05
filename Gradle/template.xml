@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="MavenSupport"
+    description="Maven Support Script."
+    >
+
+    <category value="Gradle" />
+    <execute file="recipe.xml.ftl" />
+</template>

@@ -11,7 +11,7 @@ Remember to backup your template folders before you do it.
 Usage
 ---------
 
-> Replace the folder ***templates*** to ***<androidStudio-folder>/plugins/android/lib/templates*** 
+> Replace the folder ***templates*** to ***[androidStudio-folder]/plugins/android/lib/templates*** 
 > 
 
 Maven push support

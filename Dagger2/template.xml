@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="Dagger2 Support"
+    description="Dagger2 Support"
+    >
+
+    <category value="Dependencies" />
+    <execute file="recipe.xml.ftl" />
+</template>

@@ -1,28 +1,16 @@
 Android Templates
 ===============
 
-Android Studio android project template
+屏幕截图
+----------
+![preview](template_preview.gif)
 
-Attention
------------
+使用方法
+----------
 
-Remember to backup your template folders before you do it.
+将工程下的目录添加到 **[androidStudio-folder]/plugins/android/lib/templates/other/** ,然后重启启动 AndroidStudio 即可
 
-Usage
----------
 
-> Replace the folder ***templates*** to ***[androidStudio-folder]/plugins/android/lib/templates*** 
-> 
-
-Maven push support
------------------
-
-Create a new android library with gradle script which pushs it to remote repo.
-
-Rxjava2 support
------------------
-
-Create a new android module with rxjava dependencies, includes rxjava2 , rxbinding, rxandroid and retrofit rxadapter2
 
 
 

@@ -1,5 +1,5 @@
 dependencies {
-  compile 'com.squareup.retrofit2:retrofit:latest.release'
+    compile 'com.squareup.retrofit2:retrofit:latest.release'
     compile 'com.squareup.retrofit2:converter-gson:latest.release'
     compile 'com.squareup.retrofit2:adapter-rxjava2:latest.release'
     compile 'io.reactivex.rxjava2:rxjava:latest.release'

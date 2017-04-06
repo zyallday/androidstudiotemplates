@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="AutoValue Support"
+    description="AutoValue Support"
+    >
+
+    <category value="Dependencies" />
+
+    <parameter
+        id="isGsonSupport"
+        name="AutoValue Gson Support"
+        type="boolean"
+        default="false"
+        help="If true, add gson-support denpendencies"/>
+    <parameter
+        id="isParcelableSupport"
+        name="AutoValue Parcelable Support"
+        type="boolean"
+        default="false"
+        help="If true, add parcelable-support denpendencies"/>
+    <parameter
+        id="isParcelAdapterSupport"
+        name="AutoValue ParcelAdapter Support"
+        type="boolean"
+        default="false"
+        help="If true, add parcel-adapter denpendencies"/>
+    <parameter
+        id="isRedactedSupport"
+        name="AutoValue Redacted Support"
+        type="boolean"
+        default="false"
+        help="If true, add redacted-support denpendencies"/>
+    <parameter
+        id="isWithSupport"
+        name="AutoValue With Support"
+        type="boolean"
+        default="false"
+        help="If true, add with-support denpendencies"/>
+    <execute file="recipe.xml.ftl" />
+</template>

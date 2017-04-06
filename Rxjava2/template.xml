@@ -7,5 +7,41 @@
     >
 
     <category value="Dependencies" />
+    <parameter
+        id="retrofitRxjava2adapterSupport"
+        name="Retrofit Rxjava2CallAdapter Support"
+        type="boolean"
+        default="false"
+        help="If true, add adapter-rxjava2 denpendencies"/>
+    <parameter
+        id="rxandroid2Support"
+        name="RxAndroid Support"
+        type="boolean"
+        default="false"
+        help="If true, add rxandroid denpendencies"/>
+    <parameter
+        id="rxbinding2Support"
+        name="Rxjava Rxbinding Support"
+        type="boolean"
+        default="false"
+        help="If true, add rxbinding denpendencies"/>
+    <parameter
+        id="rxbinding2v4Support"
+        name="Rxbinding Rxbinding-v4 Support"
+        type="boolean"
+        default="false"
+        help="If true, add rxbinding-appcompat-v4 denpendencies"/>
+    <parameter
+        id="rxbinding2v7Support"
+        name="Rxbinding Rxbinding-v7 Support"
+        type="boolean"
+        default="false"
+        help="If true, add rxbinding-appcompat-v7 denpendencies"/>
+    <parameter
+        id="rxbinding2recyclerviewSupport"
+        name="Rxbinding recyclerview-v7 Support"
+        type="boolean"
+        default="false"
+        help="If true, add rxbinding-recyclerview-v7 denpendencies"/>
     <execute file="recipe.xml.ftl" />
 </template>

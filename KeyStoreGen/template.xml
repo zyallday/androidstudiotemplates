@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="KeyStore"
+    description="Creates a new KeyStoreGen script.">
+
+    <category value="KeyStoreGen" />
+
+    <parameter
+        id="storeFileName"
+        name="KeyStore Filename"
+        type="string"
+        default="Sample.jks" />
+
+    <parameter
+        id="keyAlias"
+        name="KeyStore Alias"
+        type="string"
+        default="SampleAlias" />
+    
+    <parameter
+        id="keyPass"
+        name="KeyStore Password"
+        type="string"
+        default="Passw0rd" />
+
+    <parameter
+        id="name"
+        name="Your Name"
+        type="string"
+        default="DesertZhang" />
+    
+    <parameter
+        id="organizationalUnit"
+        name="Organizational Unit"
+        type="string"
+        default="Sample Unit" />
+
+    <parameter
+        id="organization"
+        name="Organization"
+        type="string"
+        default="Sample Inc" />
+
+    <parameter
+        id="city"
+        name="City"
+        type="string"
+        default="Shanghai" />
+
+    <parameter
+        id="stateOrProvince"
+        name="State Or Province"
+        type="string"
+        default="Shanghai" />
+
+    <parameter
+        id="countryCode"
+        name="Two-letter Country Code"
+        type="string"
+        default="CN" />
+
+
+    <execute file="recipe.xml.ftl" />
+
+</template>

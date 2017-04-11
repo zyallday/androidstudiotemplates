@@ -25,6 +25,7 @@ Android Templates
 - [Rxjava2](https://github.com/ReactiveX/RxJava)
 - [RxAndroid](https://github.com/ReactiveX/RxAndroid)
 - [RxBind](https://github.com/JakeWharton/RxBinding)
+- KeyStoreGen Script Support
 
 
 

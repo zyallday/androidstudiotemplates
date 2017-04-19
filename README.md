@@ -26,6 +26,7 @@ Android Templates
 - [RxAndroid](https://github.com/ReactiveX/RxAndroid)
 - [RxBind](https://github.com/JakeWharton/RxBinding)
 - KeyStoreGen Script Support
+- Maven Push Template (Mac[CMD+N]\Win[Alt+Insert] --> Gradle --> MavenSupport)
 
 
 

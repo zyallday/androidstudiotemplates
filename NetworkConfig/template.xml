@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="2"
+    name="Network Security Config"
+    description="Creates a new network-security-config."
+    >
+
+    <category value="XML" />
+    <execute file="recipe.xml.ftl" />
+</template>

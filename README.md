@@ -27,6 +27,7 @@ Android Templates
 - [RxBind](https://github.com/JakeWharton/RxBinding)
 - KeyStoreGen Script Support
 - Maven Push Template `Usage: Mac[CMD+N]\Win[Alt+Insert] --> Gradle --> MavenSupport`
+- [Network-Security-Config](https://developer.android.com/training/articles/security-config.html)
 
 
 
